@@ -36,7 +36,7 @@
         </div>
     </div>
 
-<div id="primaryModal" class="fixed inset-0 z-[100] hidden items-center justify-center p-4 md:p-10">
+<div id="primaryModal" class="fixed mt-10 inset-0 z-[100] hidden items-center justify-center p-4 md:p-10">
     <div class="absolute inset-0 bg-gray-900/80 backdrop-blur-sm" onclick="closeModal()"></div>
     
     <div class="relative bg-white w-full max-w-4xl max-h-[75vh] mt-12 md:mt-0 flex flex-col overflow-hidden rounded-3xl shadow-2xl transition-all duration-300">
@@ -57,7 +57,7 @@
     
     <div class="flex flex-col items-center w-full max-w-4xl max-h-screen overflow-y-auto">
         
-        <img id="lightboxImg" src="" class="w-auto p-4 md:p-6 bg-white rounded-lg shadow-2xl max-h-[50vh] md:max-h-[70vh] object-contain" />
+        <img id="lightboxImg" src="" class="w-auto p-4 md:p-6 bg-white rounded-lg shadow-2xl max-h-[50vh] md:max-h-[45vh] object-contain" />
         
         <h3 id="lightboxAlt" class="mt-4 md:mt-8 text-lg md:text-2xl font-bold tracking-widest text-center text-white uppercase px-4"></h3>
 
